@@ -1,8 +1,14 @@
 <?php
-$massive[1] = "42";
-$massive[2] = "15";
-$massive[3] = "12";
-$massive[4] = "62";
-$massive[5] = "52";
-echo "$massive[1] $massive[2] $massive[3] $massive[4] $massive[5]";
+print 'Создадим массив';
+echo "<br />";
+$massive = array(156,12,141,765,125);
+foreach ($massive as $key => $value){
+    echo "$value"."\n";
+}
+echo "<br />";
+print 'А теперь перевернем его';
+echo "<br />";
+foreach (array_reverse($massive) as $key => $value){
+    echo "$value"."\n";
+}
 ?>
