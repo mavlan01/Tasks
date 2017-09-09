@@ -1,6 +1,6 @@
 <form method="post" action="<?=$_SERVER['PHP_SELF']?>">
-    a:<input type="text" name="a">
-    b:<input type="text" name="b">
+    a:<input type="number" name="a">
+    b:<input type="number" name="b">
     <input type="submit">
 </form>
 <?php
@@ -12,10 +12,6 @@ try {
         throw new Exception('a меньше b');
     } elseif ($a == $b) {
         throw new Exception('a равна b');
-    } elseif (is_string($a) == TRUE) {
-        throw new Exception('a должно быть числом');
-    } elseif (is_string($b) == TRUE) {
-        throw new Exception('b должно быть числом');
     } elseif ($a > $b){
         throw new Exception('a больше b');
     }
