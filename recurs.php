@@ -10,10 +10,7 @@ print 'Посчитаем его';
 echo "<br />";
 
 function recurs ($massive){
-    for ($i=0; $i<count($massive);$i++)
-    {
         return count($massive);
-    }
 }
 $y=recurs ($massive);
 echo$y;

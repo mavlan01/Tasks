@@ -6,21 +6,20 @@
 <?php
 $a = $_POST["a"];
 $b = $_POST["b"];
-if  (is_string($a) == TRUE) {
-        echo ('a должно быть числом');
-    } elseif (is_string($b) == TRUE){
-    echo ('b должно быть числом');
-        }
 try {
 
     if ($a < $b) {
         throw new Exception('a меньше b');
     } elseif ($a == $b) {
         throw new Exception('a равна b');
+    } elseif (is_string($a) == TRUE) {
+        throw new Exception('a должно быть числом');
+    } elseif (is_string($b) == TRUE) {
+        throw new Exception('b должно быть числом');
     } elseif ($a > $b){
         throw new Exception('a больше b');
     }
-    }
+}
 
 catch(Exception $ex) {
 
