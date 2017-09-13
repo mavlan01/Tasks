@@ -1,0 +1,119 @@
+body {
+    background: #749899;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+#one{
+    float: left;
+    background: #cfdfe0;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#two{
+    float: left;
+    background: #cfdfe0;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#tree{
+    float: left;
+    background: #cfdfe0;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#fore{
+    float: left;
+    background: #cfdfe0;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#five{
+    float: left;
+    background: #cfdfe0;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#six{
+    float: left;
+    background: #cbe0dc;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#seven{
+    float: left;
+    background: #cbe0dc;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#eight{
+    float: left;
+    background: #cbe0dc;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#nine{
+    float: left;
+    background: #cfdfe0;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+
+}
+#zero{
+    float: left;
+    background: #cfdfe0;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#minus{
+    float: left;
+    background: #cfdfe0;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#plus{
+    float: left;
+    background: #cfdfe0;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#ravn{
+    float: left;
+    background: #cfdfe0;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#del{
+    float: left;
+    background: #cfdfe0;
+    width: 33%;
+    height: 55px;
+    border:1px solid black;
+}
+#otvet{
+    background: #cfdfe0;
+    width: 598px;
+    height: 55px;
+    border:1px solid black;
+}
+#container{
+    margin: auto auto;
+    text-align: center;
+    width: 600px;
+    height: 284px;
+}
+#clear {
+    clear: both;
+}
